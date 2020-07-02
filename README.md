@@ -2,7 +2,7 @@
 
 <div>
 	<p align="center">
-		<a href="https://github.com/TMUniversal/Acronym-Resolver/blob/stable/package.json#L3">
+		<a href="https://github.com/TMUniversal/Acronym-Resolver/blob/master/package.json#L3">
 			<img src="https://img.shields.io/github/package-json/v/TMUniversal/Acronym-Resolver?style=flat" />
 		</a>
 		<a href="https://tmuniversal.eu/redirect/patreon">
