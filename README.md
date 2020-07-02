@@ -8,7 +8,13 @@
 		<a href="https://tmuniversal.eu/redirect/patreon">
 			<img src="https://img.shields.io/badge/Patreon-support_me-fa6956.svg?style=flat&logo=patreon" />
 		</a>
+		<a href="https://www.npmjs.com/package/acronymresolver">
+			<img src="https://img.shields.io/npm/dt/acronymresolver" />
+		</a>
 		<br />
+		<a href="https://www.npmjs.com/package/acronymresolver">
+			<img src="https://img.shields.io/bundlephobia/min/acronymresolver?label=packge%20size" />
+		</a>
 		<a href="https://github.com/TMUniversal/Acronym-Resolver/issues">
 			<img src="https://img.shields.io/github/issues/TMUniversal/Acronym-Resolver.svg?style=flat">
 		</a>
@@ -31,7 +37,7 @@ This is entirely meant for fun.
 ## Installation
 
 ```sh
-npm install --save acronym-resolver
+npm install --save acronymresolver
 ```
 
 This will install the module into your project
@@ -41,7 +47,7 @@ This will install the module into your project
 ### In your program
 
 ```js
-const acronymResolver = require('acronym-resolver')
+const acronymResolver = require('acronymresolver')
 
 console.log(acronymResolver('<your text>'))
 ```
