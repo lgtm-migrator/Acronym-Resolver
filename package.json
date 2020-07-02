@@ -5,7 +5,7 @@
   "main": "./acronym.js",
   "scripts": {
     "start": "node ./cli",
-    "test": "node tests/test.js",
+    "test": "node test/test.js",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "eslint --ignore-path .gitignore . --fix"
   },
