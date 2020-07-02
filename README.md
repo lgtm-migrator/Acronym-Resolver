@@ -55,5 +55,5 @@ console.log(acronymResolver('<your text>'))
 The acronym-resolver module returns a function that accepts one argument.
 ### Command Line
 
-In a terminal of your choice: `./cli [your text]`
+In a terminal of your choice: `node cli.js [your text]`
 
