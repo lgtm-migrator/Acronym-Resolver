@@ -8,7 +8,10 @@ const wordList = require('./wordlist.json')
  * @param {String} input An acronym (i.e. SMS, BBC)
  */
 function acronyms (input = 'EXAMPLE') {
-  const args = inspect(input).replace(/[^a-zA-Z]/g, '').toLowerCase().split('') // filter non-letter characters
+  const args = inspect(input)
+    .replace(/[^a-zA-Z]/g, '')
+    .toLowerCase()
+    .split('') // filter non-letter characters
 
   return generateOutput(args)
 }
@@ -16,7 +19,8 @@ function acronyms (input = 'EXAMPLE') {
 function generateOutput (args) {
   const acronym = findWords(args)
   for (const i in acronym) {
-    acronym[i] = acronym[i].charAt(0).toUpperCase() + acronym[i].slice(1).toLowerCase() // Uppercase every first letter
+    acronym[i] =
+      acronym[i].charAt(0).toUpperCase() + acronym[i].slice(1).toLowerCase() // Uppercase every first letter
   }
   return acronym.join(' ')
 }
