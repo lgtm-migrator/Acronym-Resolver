@@ -18,12 +18,9 @@
   "author": "TMUniversal",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.3.1",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "@tmware/eslint-config": "^1.0.0",
+    "@tmware/prettier-config": "^1.0.1",
+    "eslint": "^7.10.0"
   },
   "directories": {
     "test": "tests"
@@ -35,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/TMUniversal/Acronym-Resolver/issues"
   },
-  "homepage": "https://github.com/TMUniversal/Acronym-Resolver#readme"
+  "homepage": "https://github.com/TMUniversal/Acronym-Resolver#readme",
+  "prettier": "@tmware/prettier-config"
 }
