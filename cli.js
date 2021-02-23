@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const resolver = require('./acronym.js')
+const resolver = require('./index.js')
 
 const word = process.argv.slice(2)
 

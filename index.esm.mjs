@@ -1,1 +1,1 @@
-import './acronym.js'
+import './index.js'

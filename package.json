@@ -2,15 +2,15 @@
   "name": "acronymresolver",
   "version": "1.1.4",
   "description": "Generate words fitting given letters",
-  "main": "./acronym.js",
+  "main": "./index.js",
   "types": "index.d.ts",
   "bin": "./cli.js",
   "exports": {
-    "require": "./acronym.js",
+    "require": "./index.js",
     "import": "./index.esm.mjs"
   },
   "files": [
-    "acronym.js",
+    "index.js",
     "index.d.ts",
     "index.esm.mjs"
   ],

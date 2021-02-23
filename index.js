@@ -30,6 +30,7 @@ function generateOutput (args) {
  * @param {String} inputString The input to find an acronym for.
  */
 function findWords (inputString) {
+  if (!inputString) throw new Error('no input')
   const output = []
 
   for (const letter in inputString.split('')) {
