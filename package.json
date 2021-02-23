@@ -10,7 +10,6 @@
     "import": "./index.esm.mjs"
   },
   "files": [
-    "dist",
     "acronym.js",
     "index.d.ts",
     "index.esm.mjs"
