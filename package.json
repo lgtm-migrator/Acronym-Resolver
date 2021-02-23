@@ -3,7 +3,17 @@
   "version": "1.1.2",
   "description": "Generate words fitting given letters",
   "main": "./acronym.js",
+  "types": "index.d.ts",
   "bin": "./cli.js",
+  "exports": {
+    "require": "./acronym.js",
+    "import": "./index.esm.mjs"
+  },
+  "files": [
+    "dist",
+    "index.d.ts",
+    "index.esm.mjs"
+  ],
   "scripts": {
     "start": "node ./cli",
     "test": "node test/test.js",
