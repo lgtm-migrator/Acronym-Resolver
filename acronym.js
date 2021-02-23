@@ -19,8 +19,7 @@ function acronyms (input = 'EXAMPLE') {
 function generateOutput (args) {
   const acronym = findWords(args)
   for (const i in acronym) {
-    acronym[i] =
-      acronym[i].charAt(0).toUpperCase() + acronym[i].slice(1).toLowerCase() // Uppercase every first letter
+    acronym[i] = acronym[i].charAt(0).toUpperCase() + acronym[i].slice(1).toLowerCase() // Uppercase every first letter
   }
   return acronym.join(' ')
 }
