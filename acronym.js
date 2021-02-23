@@ -31,7 +31,7 @@ function generateOutput (args) {
 function findWords (inputString) {
   const output = []
 
-  for (const letter in inputString) {
+  for (const letter in inputString.split('')) {
     const l = inputString[letter].toLowerCase()
     output.push(wordList[l][~~(Math.random() * wordList[l].length)])
   }
