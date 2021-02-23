@@ -33,7 +33,7 @@ function findWords (inputString) {
   if (!inputString) throw new Error('no input')
   const output = []
 
-  for (const letter in inputString.split('')) {
+  for (const letter in inputString) {
     const l = inputString[letter].toLowerCase()
     output.push(wordList[l][~~(Math.random() * wordList[l].length)])
   }
