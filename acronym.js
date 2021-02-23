@@ -5,7 +5,8 @@ const wordList = require('./wordlist.json')
  * Acronym Resolver
  *
  * Resolve acronyms randomly
- * @param {String} input An acronym (i.e. SMS, BBC)
+ * @param {String} input An acronym (e.g. SMS, BBC)
+ * @returns {String} randomly resolved acronym
  */
 function acronyms (input = 'EXAMPLE') {
   const args = inspect(input)
