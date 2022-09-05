@@ -38,7 +38,7 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@tmware/eslint-config@^1.1.2":
+"@tmware/eslint-config@1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tmware/eslint-config/-/eslint-config-1.1.2.tgz#9a306b1839dad70e2c39d5544e792f83716a0aec"
   integrity sha512-buYCKgRQEr2VB57e+5uxxkL4i/3NL2CVDcowZPyXryhZ7iTcVIn8bvxPwXG3ajmd7AtV6rgAKPGwMllGcF4avw==
@@ -48,7 +48,7 @@
     eslint-plugin-node "^11.1.0"
     eslint-plugin-promise "^4.2.1"
 
-"@tmware/prettier-config@^1.0.3":
+"@tmware/prettier-config@1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@tmware/prettier-config/-/prettier-config-1.0.3.tgz#6d1c93548e3373f4ff9cb53f626c945df416e789"
   integrity sha512-cn7f16oVNfoI5v0qgepfR9zYVLbGZoJzICfiAFXtt9t/lgG43gJ4tFrDXn4ZBbjSVxBSwTpIo+UUGbgAu42Kwg==
@@ -426,7 +426,7 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@^7.20.0:
+eslint@7.26.0:
   version "7.26.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.26.0.tgz#d416fdcdcb3236cd8f282065312813f8c13982f6"
   integrity sha512-4R1ieRf52/izcZE7AlLy56uIHHDLT74Yzz2Iv2l6kDaYvEu9x+wMB5dZArVL8SYGXSYV2YAg70FcW5Y5nGGNIg==
