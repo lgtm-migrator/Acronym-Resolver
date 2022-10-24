@@ -31,9 +31,9 @@
   "author": "TMUniversal",
   "license": "MIT",
   "devDependencies": {
-    "@tmware/eslint-config": "1.1.3",
+    "@tmware/eslint-config": "1.2.0",
     "@tmware/prettier-config": "1.0.3",
-    "eslint": "7.32.0"
+    "eslint": "8.26.0"
   },
   "directories": {
     "test": "tests"
